@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_Rosey</title>
+    
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    
+</head>
+<body>
+    <div class="header-desktop">
+        <header class="header">
+            <div class="container">
+                <nav>
+                  <button type="button" id="show-megamenu" class="navbar-toggle"><i class='bx bx-menu'></i> </button>
+                    <div class="menu-left">
+                    <ul class="menu">
+                        <li>
+                            <a href="../html/home.html"><span class="menu-item-text">Home</span></a>
+                            <ul class="sub-menu">
+                                <li><a href="../html/home.html">Home</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../html/shop.html"><span class="menu-item-text">Shop</span></a>
+                            <ul class="sub-menu">
+                                <li><a href="../html/home.html">Home</a></li>
+                                <li><a href="../html/wishList.html">Wishlist</a></li>
+                                <li><a href="../html/cart.html">Cart</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../html/product.html"><span class="menu-item-text">Products</span></a>
+                            <ul class="sub-menu">
+                                <li><a href="../html/home.html">Home</a></li>
+                                <li><a href="../html/shop.html">Shop</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../html/home.html"><span class="menu-item-text">Blog</span></a>
+                            <ul class="sub-menu">
+                                <li><a href="../html/home.html">Home</a></li>
+                                <li><a href="../html/shop.html">Shop</a></li>
+                                <li><a href="../html/product.html">Products</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span class="menu-item-text">Pages</span></a>
+                            <ul class="sub-menu">
+                                <li><a href="../html/contact.html">Contact</a></li>
+                                <li><a href="../html/shop.html">About Us</a></li>
+                                <li><a href="../html/about">Shop</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="cart-remove" href="#" title="View your shopping cart">
+			                <span class="close-wrap">
+			               	<span class="close-line close-line1"></span>
+				              <span class="close-line close-line2"></span>
+			                </span>
+		                   </a>
+                    </div>
+                     <div class="text-center">
+                        <a href="#" class="logo"><img src="../images/logo.png" alt=""></a>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 header-right">
+                        <div class="header-page-link">
+                            <div class="search-box search-dropdown">
+							           <div class="search-toggle"><i class='bx  bx-search'  ></i> </div>
+							            </div>
+                             <div class="login-header">
+                                <a class="active-login" href="#"><i class='bx  bx-user'  ></i> </a>
+                            </div>
+                            <div class="wishlist-box">
+                              <a href="./wishList.html"><i class='bx bx-heart' ></i> </a>
+                            </div>
+                            <div class="cart-icon">
+                                <a href="#">
+                                    <i class='bx bx-cart'></i>
+                                    <span class="cart-count">(0)</span> 
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="search-overlay">
+        <div class="container">
+            <div class="search-top">
+                <h2>What are you looking for?</h2>
+                <div class="close-search"><i class='bx bx-x'></i></div>
+            </div>
+            <form class="search-from ajax-search">
+                <div class="search-box">
+                <button id="searchsubmit" class="btn" type="submit">
+				<i class='bx  bx-search'  ></i>
+				<span>search</span>
+			    </button>
+                <input type="text" value="" name="s" id="s" class="input-search s" placeholder="Search...">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="main">
+        <div class="page-title bwp-title">
+        </div>
+        <div class="main-content">
+            <h1>Diverse Design</h1>
+            <button>shop Now</button>
+        </div>
+        <div class="arrows">
+            <div class="left"><i class="fas fa-solid fa-arrow-left"></i></div>
+            <span>01</span>
+            <div class="right"><i class="fas fa-solid fa-arrow-right"></i></div>
+        </div>
+    </div>
+    <div class="samples">
+        <div class="card" id="num1">
+            <div class="img">
+                <a href="#"><img src="../images/sample1.jpg" alt=""></a>
+            </div>
+            <div class="info">
+                <div class="bwp-image-subtitle">UP TO 40% OFF</div>
+                <h3 class="title-banner">Gold Hematite Cube Smile</h3>
+            </div>
+        </div>
+         <div class="card" id="num2">
+            <div class="img">
+                <a href="#"><img src="../images/sample2.jpg" alt=""></a>
+            </div>
+            <div class="info">
+                <div class="bwp-image-subtitle">UP TO 40% OFF</div>
+                <h3 class="title-banner">Structured Cuff Bracelet</h3>
+            </div>
+        </div>
+         <div class="card" id="num3">
+            <div class="img">
+                <a href="#"><img src="../images/sample3.jpg" alt=""></a>
+            </div>
+            <div class="info">
+                <div class="bwp-image-subtitle">FREE SHIPPING</div>
+                <h3 class="title-banner">Premium Rings</h3>
+            </div>
+        </div>
+    </div>
+    <div class="products" >
+        <div class="container">
+            <div class="filter-btns">
+                <ul class="order-by">
+                    <li data-value="rating"><span>Top Rating</span></li>
+                    <li data-value="popularity" ><span>Best Sellers</span></li>
+                    <li data-value="featured" ><span>Featured Products</span></li>
+                </ul>
+            </div>
+           <div class="slider-container rating" >
+                 <div class="slider">
+    <div class="item" data-category="rating popularity">
+      <div class="item-img">
+        <a href="#">
+            <img src="../images/r3.jpg" alt="">
+            <img src="../images/r3(1).jpg" class="wp-post-image " alt="">
+
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Floating Sapphire</a></h3>
+        <div class="price"><span class="del">$98.00</span><span>$90.00</span></div>
+      </div>
+      <div class="product-lable">
+		<div class="vgwc-label vgwc-featured hot">Hot</div>						
+		<div class="onsale">-8%</div>
+    </div>
+<div class="product-button">
+    <button class="read_more Add_to_cart" title="Add to cart">
+      <i class='bx bx-cart' ></i>
+      
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'  ></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+    </div>
+    <div class="item" data-category="rating">
+      <div class="item-img">
+        <a href="#"><img src="../images/r1.jpg" alt="">   
+             <img src="../images/r10.jpg" class="wp-post-image " alt="">
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Boyfriend Bold Bracelet</a></h3>
+        <div class="price"><span class="del">$178</span><span>$150</span></div>
+      </div>
+           <div class="product-lable">					
+		<div class="onsale">-16%</div>
+    </div>
+<div class="product-button">
+    <button class="read_more Add_to_cart" title="Add to cart">
+      <i class='bx bx-cart'></i>
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'  ></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+    </div>
+    <div class="item" data-category="rating">
+      <div class="item-img">
+        <a href="#"><img src="../images/r2.jpg" alt="">  <img src="../images/r2(1).jpg" class="wp-post-image " alt=""></a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Double Curb Chain</a></h3>
+        <div class="price"><span >$70.00</span><span class="slash"> - </span><span>$72.00</span></div>
+      </div>
+           <iv class="product-lable">
+		<div class="vgwc-label vgwc-featured hot">Hot</div>						
+         </iv>
+        <div class="product-button">
+    <button class="read_more" title="Add to cart">
+      <i class='fas fa-arrow-right' style="font-size: 16px;"></i> 
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'  ></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+  <div class="product-attribute">
+    <div class="color image-attribute" data-title="Gold" data-color="gold">
+        <span style="background-color:#e9d590;">Gold</span>
+    </div>
+    <div class="color image-attribute" data-title="Silver" data-color="Silver">
+        <span style="background-color:#c8c8c8;">Silver</span>
+    </div>
+  </div>
+  
+    </div>
+     <div class="item" data-category="rating">
+      <div class="item-img">
+        <a href="#"><img src="../images/r5.jpg" alt=""> <img src="../images/r5(1).jpg" class="wp-post-image " alt=""></a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Daily Stacker</a></h3>
+        <div class="price"><span >$58.00</span><span class="slash"> - </span><span>$60.00</span></div>
+      </div>
+<div class="product-button">
+    <button class="read_more" title="Add to cart">
+      <i class='fas fa-arrow-right' style="font-size: 16px;"></i>
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+  <div class="product-attribute">
+    <div class="color image-attribute" data-title="Gold">
+        <span style="background-color:#e9d590;">Gold</span>
+    </div>
+    <div class="color image-attribute" data-title="Silver">
+        <span style="background-color:#c8c8c8;">Silver</span>
+    </div>
+  </div>
+    </div>
+    <div class="item" data-category="rating">
+      <div class="item-img">
+        <a href="#"><img src="../images/r9.jpg" alt="">  <img src="../images/r9(1).jpg" class="wp-post-image " alt=""></a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Croissant Dôme Hoops</a></h3>
+        <div class="price"><span >$50.00</span><span class="slash"> - </span><span>$60.00</span></div>
+      </div>
+           <div class="product-lable">						
+		<div class="onsale">-44%</div>
+    </div>
+<div class="product-button">
+    <button class="read_more" title="Add to cart">
+      <i class='fas fa-arrow-right' style="font-size: 16px;"></i>
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+  <div class="product-attribute">
+    <div class="color image-attribute" data-title="Gold">
+        <span style="background-color:#e9d590;">Gold</span>
+    </div>
+    <div class="color image-attribute" data-title="Silver">
+        <span style="background-color:#c8c8c8;">Silver</span>
+    </div>
+  </div>
+    </div>   
+              </div>
+             </div>
+             <div class="slider-container popularity" style="display:none;">
+            <div class="slider">
+            <div class="item" data-category=" popularity">
+               <div class="item-img">
+                 <a href="#">
+            <img src="../images/r3.jpg" alt="">
+            <img src="../images/r3(1).jpg" class="wp-post-image " alt="">
+
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Floating Sapphire</a></h3>
+        <div class="price"><span class="del">$98.00</span><span>$90.00</span></div>
+      </div>
+      <div class="product-lable">
+		<div class="vgwc-label vgwc-featured hot">Hot</div>						
+		<div class="onsale">-8%</div>
+    </div>
+<div class="product-button">
+    <button class="read_more Add_to_cart" title="Add to cart">
+      <i class='bx bx-cart'  ></i> </i>
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'  ></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+  </div>
+            <div class="item" data-category=" popularity">
+            <div class="item-img">
+         <a href="#">
+            <img src="../images/r6.jpg" alt="">
+            <img src="../images/r6(1).jpg" class="wp-post-image " alt="">
+
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Pavé Diamond Signet Pinky</a></h3>
+        <div class="price"><span >$250.00</span></div>
+      </div>
+      <div class="product-lable">
+		<div class="vgwc-label vgwc-featured hot">Hot</div>						
+    </div>
+<div class="product-button">
+    <button class="read_more Add_to_cart" title="Add to cart">
+      <i class='bx bx-cart'  ></i> </i>
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'  ></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+            </div>
+             <div class="item" data-category=" popularity">
+      <div class="item-img">
+        <a href="#">
+            <img src="../images/r7.jpg" alt="">
+            <img src="../images/r7(1).jpg" class="wp-post-image " alt="">
+
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Single Mini Hoop</a></h3>
+        <div class="price"><span >$35.00</span></div>
+      </div>
+      <div class="product-lable">
+		<div class="vgwc-label vgwc-featured hot">Hot</div>						
+    </div>
+<div class="product-button">
+    <button class="read_more Add_to_cart" title="Add to cart">
+      <i class='bx bx-cart'  ></i> 
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+            </div>
+             <div class="item" data-category=" popularity">
+      <div class="item-img">
+        <a href="#">
+            <img src="../images/r8.jpg" alt="">
+            <img src="../images/r8(1).jpg" class="wp-post-image " alt="">
+
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Croissant Dôme</a></h3>
+        <div class="price"><span >$70.00</span><span class="slash">-</span><span>$78.00</span></div>
+      </div>
+<div class="product-button">
+    <button class="read_more" title="Add to cart">
+        <i class='fas fa-arrow-right' style="font-size: 16px;"></i>
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+            </div>
+             <div class="item" data-category=" popularity">
+      <div class="item-img">
+        <a href="#">
+            <img src="../images/r11(1).jpg" alt="">
+            <img src="../images/r11.jpg" class="wp-post-image " alt="">
+
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Serpentine Chain</a></h3>
+        <div class="price"><span class="del" >$500.00</span><span>$400.00</span></div>
+      </div>
+<div class="product-button">
+    <button class="read_more" title="Add to cart">
+        <i class='fas fa-arrow-right' style="font-size: 16px;"></i>
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+            </div>
+          </div>
+             </div>
+             
+             <div class="slider-container featured" style="display:none;">
+              <div class="slider">
+                <div class="item" data-category=" featured">
+      <div class="item-img">
+        <a href="#">
+            <img src="../images/r1.jpg" alt="">
+            <img src="../images/r1(1).jpg" class="wp-post-image " alt="">
+
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Bold Link Chain</a></h3>
+        <div class="price"><span class="del">$100.00</span><span>$80.00</span></div>
+      </div>
+      <div class="product-lable">
+		<div class="vgwc-label vgwc-featured hot">Hot</div>						
+		<div class="onsale">-20%</div>
+    </div>
+<div class="product-button">
+    <button class="read_more Add_to_cart" title="Add to cart">
+      <i class='bx bx-cart' ></i>
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'  ></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+               </div>
+               <div class="item" data-category="featured">
+      <div class="item-img">
+        <a href="#"><img src="../images/r2.jpg" alt="">  <img src="../images/r2(1).jpg" class="wp-post-image " alt=""></a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Double Curb Chain</a></h3>
+        <div class="price"><span>$70.00</span><span class="slash"> - </span><span>$72.00</span></div>
+      </div>
+           <iv class="product-lable">
+		<div class="vgwc-label vgwc-featured hot">Hot</div>						
+         </iv>
+        <div class="product-button">
+    <button class="read_more Add_to_cart" title="Add to cart">
+      <i class="fas fa-arrow-right" style="font-size: 16px;"></i> 
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class="bx bx-heart"></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+  <div class="product-attribute">
+    <div class="color image-attribute" data-title="Gold" data-color="gold">
+        <span style="background-color:#e9d590;">Gold</span>
+    </div>
+    <div class="color image-attribute" data-title="Silver" data-color="Silver">
+        <span style="background-color:#c8c8c8;">Silver</span>
+    </div>
+  </div>
+  
+               </div>
+               <div class="item" data-category=" featured">
+      <div class="item-img">
+        <a href="#">
+            <img src="../images/r3.jpg" alt="">
+            <img src="../images/r3(1).jpg" class="wp-post-image " alt="">
+
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Floating Sapphire</a></h3>
+        <div class="price"><span class="del">$98.00</span><span>$90.00</span></div>
+      </div>
+      <div class="product-lable">
+		<div class="vgwc-label vgwc-featured hot">Hot</div>						
+		<div class="onsale">-8%</div>
+    </div>
+<div class="product-button">
+    <button class="read_more Add_to_cart" title="Add to cart">
+      <i class="bx bx-cart"></i> 
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class="bx bx-heart"></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+               </div>
+               <div class="item" data-category=" featured">
+      <div class="item-img">
+        <a href="#">
+            <img src="../images/r4.jpg" alt="">
+            <img src="../images/r4(1).jpg" class="wp-post-image " alt="">
+
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Mini Pearl Satellite</a></h3>
+        <div class="price"><span class="del">$98.00</span><span>$90.00</span></div>
+      </div>
+      <div class="product-lable">
+		<div class="vgwc-label vgwc-featured hot">Hot</div>						
+		<div class="onsale">-8%</div>
+    </div>
+<div class="product-button">
+    <button class="read_more Add_to_cart" title="Add to cart">
+      <i class="bx bx-cart"></i> 
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class="bx bx-heart"></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+               </div>
+               <div class="item" data-category=" featured">
+      <div class="item-img">
+        <a href="#">
+            <img src="../images/r12.jpg" alt="">
+            <img src="../images/r12(10).jpg" class="wp-post-image " alt="">
+
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Pavé Diamond Bar</a></h3>
+        <div class="price"><span>$55.00</span></div>
+      </div>
+      <div class="product-lable">
+		<div class="vgwc-label vgwc-featured hot">Hot</div>						>
+    </div>
+<div class="product-button">
+    <button class="read_more Add_to_cart" title="Add to cart">
+      <i class="bx bx-cart"></i> 
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class="bx bx-heart"></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+               </div>
+
+              </div>
+             </div>
+              <div class="bwp-button-widget">
+                <a href="#" class="bwp-button-link style_1 bwp-button">
+                    <span class="bwp-button-content-wrapper">
+						<span class="bwp-button-text">View All</span></span>
+                </a>
+             </div>
+             <div class="arrows">
+                <div class="left "><i class="fas fa-arrow-left"></i></div>
+                 <div class="right"><i class="fas fa-arrow-right"></i></div>
+             </div>
+       </div>
+    </div>
+    <div class="boxes">
+  <div class="container">
+    <div class="cards-container">
+      <!-- العمود الأيسر -->
+      <div class="left-column">
+        <div class="box large">
+          <img src="../images/box1.jpg" alt="Gold ring with stones">
+          <div class="info">
+            <h3 class="title-banner">Gold ring with stones</h3>
+            <div class="bwp-image-description">
+              Compact, delicate design suitable for many different outfits...
+            </div>
+          </div>
+        </div>
+
+        <div class="small-boxes">
+          <div class="box small">
+            <img src="../images/box2.jpg" alt="Earring">
+            <a href="#" class="button">Earring</a>
+          </div>
+          <div class="box small">
+            <img src="../images/box3.jpg" alt="Rings">
+            <a href="#" class="button">Rings</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- العمود الأيمن -->
+      <div class="right-column">
+        <div class="box tall">
+          <img src="../images/box4.jpg" alt="Bracelet">
+          <a href="#" class="button">Bracelet</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class=" products holiday_gift">
+      <div class="container">
+        <div class="holiday_title">
+          <h2 class="elementor-heading-title elementor-size-default">Holiday gifts</h2>
+        </div>
+        <div class="slider-container rating" >
+                 <div class="slider">
+    <div class="item" data-category="rating popularity">
+      <div class="item-img">
+        <a href="#">
+            <img src="../images/r3.jpg" alt="">
+            <img src="../images/r3(1).jpg" class="wp-post-image " alt="">
+
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Floating Sapphire</a></h3>
+        <div class="price"><span class="del">$98.00</span><span>$90.00</span></div>
+      </div>
+      <div class="product-lable">
+		<div class="vgwc-label vgwc-featured hot">Hot</div>						
+		<div class="onsale">-8%</div>
+    </div>
+<div class="product-button">
+    <button class="read_more Add_to_cart" title="Add to cart">
+      <i class='bx bx-cart'></i>
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'  ></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+    </div>
+    <div class="item" data-category="rating">
+      <div class="item-img">
+        <a href="#"><img src="../images/r1.jpg" alt="">   
+             <img src="../images/r10.jpg" class="wp-post-image " alt="">
+        </a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Boyfriend Bold Bracelet</a></h3>
+        <div class="price"><span class="del">$178</span><span>$150</span></div>
+      </div>
+           <div class="product-lable">					
+		<div class="onsale">-16%</div>
+    </div>
+<div class="product-button">
+    <button class="read_more Add_to_cart" title="Add to cart">
+      <i class='bx bx-cart'  ></i> </i>
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'  ></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+    </div>
+    <div class="item" data-category="rating">
+      <div class="item-img">
+        <a href="#"><img src="../images/r2.jpg" alt="">  <img src="../images/r2(1).jpg" class="wp-post-image " alt=""></a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Double Curb Chain</a></h3>
+        <div class="price"><span >$70.00</span><span class="slash"> - </span><span>$72.00</span></div>
+      </div>
+           <iv class="product-lable">
+		<div class="vgwc-label vgwc-featured hot">Hot</div>						
+         </iv>
+        <div class="product-button">
+    <button class="read_more" title="Add to cart">
+      <i class='fas fa-arrow-right' style="font-size: 16px;"></i> 
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'  ></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+  <div class="product-attribute">
+    <div class="color image-attribute" data-title="Gold" data-color="gold">
+        <span style="background-color:#e9d590;">Gold</span>
+    </div>
+    <div class="color image-attribute" data-title="Silver" data-color="Silver">
+        <span style="background-color:#c8c8c8;">Silver</span>
+    </div>
+  </div>
+  
+    </div>
+     <div class="item" data-category="rating">
+      <div class="item-img">
+        <a href="#"><img src="../images/r5.jpg" alt=""> <img src="../images/r5(1).jpg" class="wp-post-image " alt=""></a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Daily Stacker</a></h3>
+        <div class="price"><span >$58.00</span><span class="slash"> - </span><span>$60.00</span></div>
+      </div>
+<div class="product-button">
+    <button class="read_more" title="Add to cart">
+      <i class='fas fa-arrow-right' style="font-size: 16px;"></i>
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'  ></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+  <div class="product-attribute">
+    <div class="color image-attribute" data-title="Gold">
+        <span style="background-color:#e9d590;">Gold</span>
+    </div>
+    <div class="color image-attribute" data-title="Silver">
+        <span style="background-color:#c8c8c8;">Silver</span>
+    </div>
+  </div>
+    </div>
+    <div class="item" data-category="rating">
+      <div class="item-img">
+        <a href="#"><img src="../images/r9.jpg" alt="">  <img src="../images/r9(1).jpg" class="wp-post-image " alt=""></a>
+      </div>
+      <div class="content">
+        <h3 class="product-title"><a href="#">Croissant Dôme Hoops</a></h3>
+        <div class="price"><span >$50.00</span><span class="slash"> - </span><span>$60.00</span></div>
+      </div>
+           <div class="product-lable">						
+		<div class="onsale">-44%</div>
+    </div>
+<div class="product-button">
+    <button class="read_more" title="Add to cart">
+      <i class='fas fa-arrow-right' style="font-size: 16px;"></i>
+    </button>
+    <button class="wishlist" title="Add to wishlist">
+      <i class='bx bx-heart'></i> 
+    </button>
+  </div>
+  <div class="btn-quickview">
+    <span class="product-quickview" data-title="Quick View">
+        <a href="#" data-product_id="16541" class="quickview quickview-button quickview-16541" tabindex="0"><span>Quick View</span></a>
+    </span>
+  </div>
+  <div class="product-attribute">
+    <div class="color image-attribute" data-title="Gold">
+        <span style="background-color:#e9d590;">Gold</span>
+    </div>
+    <div class="color image-attribute" data-title="Silver">
+        <span style="background-color:#c8c8c8;">Silver</span>
+    </div>
+  </div>
+    </div>   
+              </div>
+             </div>
+             <div class="arrows">
+                <div class="left "><i class="fas fa-arrow-left"></i></div>
+                 <div class="right"><i class="fas fa-arrow-right"></i></div>
+             </div>
+      </div>
+    </div>
+    <div class="reviwes">
+  <div class="container">
+    <div class="testimonial-title">
+      <h2>Customer Reviews</h2>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+      
+      <!-- الدواير -->
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+
+      <!-- المحتوى -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel">
+            <img class="d-block w-83 h-83" src="../images/re1.png" alt="First slide">
+          </div>
+          <div class="testimonial-item">
+            <p class="post-excerpt">So happy with my Almo. Beautiful wood, great craftsmanship. It is exactly as I was hoping. Perfect for my needs.</p>
+          </div>
+          <div class="testimonial-info">
+            <h2 class="testimonial-customer-name">Mrs Annaway</h2>
+            <div class="testimonial-job">Model</div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel">
+            <img class="d-block w-83 h-83" src="../images/re2.jpg" alt="Second slide">
+          </div>
+          <div class="testimonial-item">
+            <p class="post-excerpt">Rose jewelry is a great choice for those who love sophisticated, luxurious and trendy items.</p>
+          </div>
+          <div class="testimonial-info">
+            <h2 class="testimonial-customer-name">Ann Smith</h2>
+            <div class="testimonial-job">CEO & Founder</div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel">
+            <img class="d-block w-83 h-83" src="../images/re3.jpg" alt="Third slide">
+          </div>
+          <div class="testimonial-item">
+            <p class="post-excerpt">Rose jewelry is a great choice for those who love sophisticated, luxurious and trendy items.</p>
+          </div>
+          <div class="testimonial-info">
+            <h2 class="testimonial-customer-name">Anana</h2>
+            <div class="testimonial-job">Photographer</div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="carousel">
+            <img class="d-block w-83 h-83" src="../images/re4.jpg" alt="Fourth slide">
+          </div>
+          <div class="testimonial-item">
+            <p class="post-excerpt">So happy with my Almo. Beautiful wood, great craftsmanship. It is exactly as I was hoping. Perfect for my needs.</p>
+          </div>
+          <div class="testimonial-info">
+            <h2 class="testimonial-customer-name">Linda</h2>
+            <div class="testimonial-job">Designer</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- الأسهم -->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="custom-arrow"><i class="fas fa-arrow-left"></i></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="custom-arrow"><i class="fas fa-arrow-right"></i></span>
+      </a>
+
+    </div>
+  </div>
+   </div>
+   <div class="instgram" style="margin-bottom: 100px;">
+  <div class="container">
+    <div class="elementor-widget-container">
+      <h2 class="elementor-heading-title elementor-size-default">Our instagram</h2>
+    </div>
+    <div class="swiper productSwiper">
+    <div class="swiper-wrapper">
+       <div class="swiper-slide"> <div class="image-wrap"><img src="../images/insta.jpg" alt=""></div></div>
+      <div class="swiper-slide"> <div class="image-wrap"> <img src="../images/insta1.jpg" alt=""></div></div>
+      <div class="swiper-slide"> <div class="image-wrap"> <img src="../images/insta2.jpg" alt=""></div></div>
+      <div class="swiper-slide"> <div class="image-wrap"> <img src="../images/insta3.jpg" alt=""></div></div>
+      <div class="swiper-slide"> <div class="image-wrap"> <img src="../images/insta1.jpg" alt=""></div></div>
+    </div>
+  </div>
+  </div>
+  </div>
+     <footer class="custom-footer">
+  <div class="footer-row">
+    <!-- Logo & Text -->
+    <div class="footer-col logo-col">
+      <img src="../images/footer_img.png" alt="Logo">
+      <p>Proud to be the leading jewelry manufacturing and retailing company, diverse in types, unique in design, …</p>
+      <div class="social-icons">
+        <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-dribbble"></i>
+      </div>
+    </div>
+
+    <!-- My Account -->
+    <div class="footer-col">
+      <h2>My account</h2>
+      <a href="../html/wishList.html">Wishlist</a>
+      <a href="../html/cart.html">Cart</a>
+      <a href="../html/checkout.html">Checkout</a>
+      <a href="#">Maintenance</a>
+    </div>
+
+    <!-- About us -->
+    <div class="footer-col">
+      <h2>About us</h2>
+      <a href="#">Recruit</a>
+      <a href="#">Export</a>
+      <a href="#">Sales policy</a>
+      <a href="#">Secure payment</a>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="footer-col newsletter">
+      <h2>Newsletter</h2>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <button>Send</button>
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div class="footer-bottom">
+    <p>Copyright 2023 Perfect | Powered by <span>Wpbingo</span></p>
+  </div>
+     </footer>
+     <div class="remove-cart-shadow "></div>
+     <div class="mini-cart">
+      <div class="cart-popup">
+        <div class="cart-header">
+        <div class="remove-cart">
+		       <div class="top-total-cart">Cart(0)</div>
+       <a class="cart-remove" href="#" title="View your shopping cart">
+			<span class="close-wrap">
+				<span class="close-line close-line1"></span>
+				<span class="close-line close-line2"></span>
+			</span>
+		       </a>
+	        </div>
+          <div class="shopping-cart">
+           <div class="shopping_cart_content">
+            <div class="empty">
+                <span>No products in the cart.</span>
+             <a class="go-shop" href="#">Shop all products</a>
+              </div>
+               <div class="cart-items"></div>
+                          <div class="total-cart">
+                <div class="title-total">Subtotal</div>
+                  <div class="total-price">
+                     <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-currencySymbol">$</span><span class="totalValue">0.00</span>
+                       </span>
+                         </div>
+                          </div>
+                <div class="free-ship">
+            <div class="title-ship"> Spend <strong class="remaining-amount">$260</strong> more and get <strong>free shipping!</strong>
+          <div class="total-percent">
+           <div class="percent" id="progressBar"><i class="fas fa-solid fa-car-side"></i></div>
+           </div>
+               </div>
+                 </div>
+                 <div class="buttons">
+					<a href="../html/checkout.html" class="button btn checkout btn-default"><span>Check Out</span></a>
+					<a href="../html/cart.html" class="button btn view-cart btn-primary"><span>View Cart</span></a>
+				          </div>
+                 </div>
+          </div>
+       
+       
+
+      </div>
+     </div>
+     </div>
+
+
+      <script src="../js/home.js"></script>
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="../js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper(".productSwiper", {
+  slidesPerView: "auto", 
+  spaceBetween: 0,       
+  grabCursor: true,  
+  loop: true,     
+  freeMode: false,       
+  mousewheel: false,
+});
+
+</script>
+
+</body>
+</html>
