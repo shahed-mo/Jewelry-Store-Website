@@ -2180,5 +2180,10 @@ ease-out;
     margin-right: 10px;
     font-size: 20px;
 }
-
+.woocommerce{
+    padding: 0 20px;
+}
+.cart-page-items{
+    padding: 0px 20px 0px 20px;
+}
 }
